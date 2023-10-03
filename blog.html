@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.blog-title {
+    font-size: 40px;
+}
+
+.blog-content {
+    margin: 20px;
+    padding: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    background-color: rgb(192, 212, 255);
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: rgba(121, 138, 167, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    background-color: rgb(192, 212, 2255);
+}
+
+.author img {
+    max-width: 150px;
+    height: 200px;
+   
+    margin-right: 20px;
+
+    
+}
+
+.comments {
+    margin: 20px;
+    padding: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    background-color: rgb(192, 212, 255);
+}
+
+.comment {
+   
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.add-comment {
+    margin: 20px;
+    padding: 20px ;
+    padding-bottom: 50px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    background-color: rgb(192, 212, 255);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    background-color: rgb(208, 221, 248);
+    border-style: none;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+    left: -1150px;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Post</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="blog-title"></h1>
+    </header>
+    <article class="blog-content">
+        <img src="http://tunes.desibantu.com/files/2011/12/mahabharata-kurukshetra-desibantu.jpg"alt=>"
+        <h2>A brief summary of the mahabaratham</h2>
+        <p>
+            We begin during the rule of Bharata, when everyone on Earth follows dharma. His lineage is traced to two sons: Dhrtarastra, who is blind and cannot inherit the throne, and Pandu, who becomes king. Pandu has one illegitimate son he must give up to be raised as a Suta and five sons to call his own, and all six are gods incarnate. Dhrtarastra has 100 sons (called Kauravas), all demons. Pandu's five sons Arjuna, Bhima, Yudhisthira, Nakula, and Sahadeva are all great warriors or great kings, and marry the princess Draupadi. Dhrtarastra's son Duryodhana leads the other 99 brothers, and has a seething hatred for the Pandavas, or Pandu's sons. Both Yudhisthira and Duryodhana are granted kingdoms by Dhrtarastra.
+
+
+        </p>
+       
+    </article>
+    <section class="author-info ">
+        <div class="author">
+            <img src="https://i.ytimg.com/vi/NVIjwSxRTQc/maxresdefault.jpg" alt="Author's Profile Picture">
+        </div>
+        <div class="author-bio">
+            <h2>About the Author</h2>
+            <h3>Veda vysa</h3>
+            <p>The Mahabharata, one of the two major Sanskrit epics of ancient India, is traditionally attributed to the sage Vyasa. Vyasa is said to have composed the Mahabharata, which is a vast and complex epic that includes a wide range of stories, philosophical teachings, and moral lessons. It is one of the most important texts in Hindu literature and provides insights into Indian culture, religion, and history. The Mahabharata is believed to have been composed over a long period, and its final form likely took shape over several centuries....</p>
+        </div>
+    </section>
+   
+    <section class="add-comment">
+        
+            <h2>Comments</h2>
+            <div class="comment">
+                <div class="comment-author"> M.PRUDHVIRAJ</div>
+                <div class="comment-timestamp">Posted on: October 4, 2023</div>
+                <p>This is a great blog post! i have read it.</p>
+            </div>
+            
+      
+        <h2>Add a Comment</h2>
+        <form>
+            <label for="commenter-name">Name:</label>
+            <input type="text" id="commenter-name" name="commenter-name" required>
+            <label for="comment-content">Comment:</label>
+            <textarea id="comment-content" name="comment-content" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
